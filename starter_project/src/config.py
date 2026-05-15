@@ -14,5 +14,5 @@ SUMMARY_FILE = OUTPUT_DIR / "validation_summary.json"
 
 VALID_STATUSES = {"completed", "pending", "cancelled"}
 
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1504696786219044994/oOzTmTmoRZzQe_FxCA6VCeHD5IMtzrbfqIkkzD5BjFtQaa1WuEQnzsY3Qsc30-wrTiSj")
 AIRFLOW_INPUT_FILE = os.getenv("AIRFLOW_INPUT_FILE", str(PASSED_DATASET))
